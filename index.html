@@ -5,21 +5,31 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iShopBox - Optimized for iOS 15</title>
+ 
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <script type="text/javascript">
+ <script>
 
-var titleText = document.title;
-
-function titleMarquee() {
-
- titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
- document.title = titleText;
- setTimeout("titleMarquee()", 450);
- }
-
+    var repeat=0 //enter 0 to not repeat scrolling after 1 run, othersise, enter 1
+    var title=document.title
+    var leng=title.length
+    var start=1
+    function titlemove() 
+    {
+        titl=title.substring(start, leng) + title.substring(0, start)
+        document.title=titl
+        start++
+        if (start==leng+1`enter code here`) 
+        {
+            start=0
+            if (repeat==0)
+            return
+        }
+        setTimeout("titlemove()",500)
+    }
+    if (document.title)
+    titlemove()
 </script>
   
   <!-- Favicons -->
