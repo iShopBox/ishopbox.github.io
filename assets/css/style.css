@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #ef6603;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fc8129;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #ef6603;
 }
 #hero .btn-get-started:hover {
-  background: #ef6603;
+ 
   color: #fff;
   text-decoration: none;
 }
@@ -802,7 +802,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #fd9f5b;
+  color: #fff;
 }
 .portfolio .portfolio-item:hover .portfolio-img img {
   transform: scale(1.2);
@@ -1128,7 +1128,7 @@ section {
   justify-content: center;
 }
 .team .member .social a:hover {
-  background: #fc8129;
+  background: #fff;
 }
 .team .member .social i {
   font-size: 18px;
